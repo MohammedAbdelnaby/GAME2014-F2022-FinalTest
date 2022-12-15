@@ -2,6 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+/*
+ * Name: ShrinkingPlatformController
+ * My Name: Mohammed Abdelnaby
+ * Student ID:101295593
+ * Last Modified: 2022/12/15
+ * Description: added Gem pick up sound effect.
+ */
 
 [System.Serializable]
 public class SoundManager : MonoBehaviour

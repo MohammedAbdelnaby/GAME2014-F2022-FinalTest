@@ -2,7 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-
+/*
+ * Name: ShrinkingPlatformController
+ * My Name: Mohammed Abdelnaby
+ * Student ID:101295593
+ * Last Modified: 2022/12/15
+ * Description: added if the player triggers the gem collision it will delete its self and will play a sound effect.
+ */
 public class MovingPlatformController : MonoBehaviour
 {
     public PlatformDirection direction;

@@ -1,7 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+ * Name: ShrinkingPlatformController
+ * My Name: Mohammed Abdelnaby
+ * Student ID:101295593
+ * Last Modified: 2022/12/15
+ * Description: This script changes the animator bool "Shrink" to change its size to shrink it or grow it.
+ */
 public class ShrinkingPlatformController : MonoBehaviour
 {
     private Animator animator;
