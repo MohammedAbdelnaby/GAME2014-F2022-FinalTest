@@ -219,6 +219,7 @@ public class PlayerBehaviour : MonoBehaviour
 
         if (other.gameObject.CompareTag("Gem"))
         {
+            soundManager.PlaySoundFX(Sound.GEM_PICKUP, Channel.GEM_PICKUP_FX);
             Destroy(other.gameObject);
         }
     }

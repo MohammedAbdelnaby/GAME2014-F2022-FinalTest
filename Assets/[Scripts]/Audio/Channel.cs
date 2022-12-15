@@ -7,6 +7,7 @@ public enum Channel
     PLAYER_SOUND_FX,
     PLAYER_HURT_FX,
     PLAYER_DEATH_FX,
+    GEM_PICKUP_FX,
     BULLET,
     MUSIC
 }

@@ -8,13 +8,13 @@ public class MovingPlatformController : MonoBehaviour
     public PlatformDirection direction;
 
     [Header("Movement Properties")] 
-    [Range(1.0f, 20.0f)]
+    [Range(0.0f, 20.0f)]
     public float horizontalDistance = 8.0f;
-    [Range(1.0f, 20.0f)] 
+    [Range(0.0f, 20.0f)] 
     public float horizontalSpeed = 3.0f;
-    [Range(1.0f, 20.0f)]
+    [Range(0.0f, 20.0f)]
     public float verticalDistance = 8.0f;
-    [Range(1.0f, 20.0f)]
+    [Range(0.0f, 20.0f)]
     public float verticalSpeed = 3.0f;
     [Range(0.001f, 0.1f)]
     public float customSpeedFactor = 0.02f;
