@@ -216,5 +216,10 @@ public class PlayerBehaviour : MonoBehaviour
             soundManager.PlaySoundFX(Sound.HURT, Channel.PLAYER_HURT_FX);
             ShakeCamera();
         }
+
+        if (other.gameObject.CompareTag("Gem"))
+        {
+            Destroy(other.gameObject);
+        }
     }
 }
